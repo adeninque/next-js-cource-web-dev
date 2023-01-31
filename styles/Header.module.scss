@@ -1,0 +1,42 @@
+@import './variables';
+
+.header {
+  margin: 0 0 3rem 0;
+  &__body {
+    padding: 1rem 0;
+    border-bottom: 1px solid $second-clr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    height: 2.5rem;
+  }
+
+  &__nav {
+    margin: 0 0 0 5%;
+  }
+}
+
+.nav {
+
+  &__link {
+    cursor: pointer;
+    margin: 0 0 0 0.5rem;
+    transition: .3s ease-in-out;
+    color: $font-clr-light;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    &:hover {
+      color: $second-clr;
+    }
+
+    &_active {
+      color: $second-clr;
+    }
+  }
+}

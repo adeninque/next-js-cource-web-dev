@@ -1,0 +1,16 @@
+.contact {
+  
+  &__name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 2rem 0;
+  }
+
+  &__inf {
+    margin: 1rem 0 0 0;
+
+    & span {
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import './variables';
+
+.posts {
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  &__post {
+    margin: 1rem 0 0 0;
+
+    &:first-child {
+      margin: 0;
+    }
+  }
+}
+.post {
+  border: 1px solid $second-clr;
+  font-size: 1;
+
+  &__title {
+    background-color: $main-clr-2;
+    padding: .5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    color: $font-clr-light;
+  }
+}

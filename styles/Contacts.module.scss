@@ -1,0 +1,38 @@
+@import './variables';
+
+
+.contacts {
+  &__body {
+    border: 1px solid $second-clr;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .5rem .2rem;
+    text-transform: uppercase;
+  }
+  &__contact {
+
+  }
+}
+
+.contact {
+  padding: .5rem;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  
+  &__inf {
+    color: $font-clr-light;
+  } 
+
+  &:nth-child(even) {
+    background-color: $main-clr-2;
+  }
+
+  &:hover {
+    background-color: $second-clr;
+    color: $font-clr-dark;
+  }
+
+}

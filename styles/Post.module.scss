@@ -1,0 +1,17 @@
+@import './variables';
+
+.post {
+  
+  &__wrapper {
+  }
+
+  &__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+
+  &__body {
+    margin: 1rem 0 0 0;
+  }
+}
