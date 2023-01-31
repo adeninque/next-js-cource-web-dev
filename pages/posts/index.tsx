@@ -34,7 +34,7 @@ const Posts = ({ posts }: PostsProps) => {
           <div className={s.posts__body}>
             <div className={s.posts__title}>Posts list:</div>
             {posts ? posts.map((post) => 
-              <div className={[s.post, s.posts__post].join(' ')}>
+              <div className={[s.post, s.posts__post].join(' ')} key={post.id}>
                 <Link 
                 className={s.post__title}
                 href={`/posts/${post.id}`}

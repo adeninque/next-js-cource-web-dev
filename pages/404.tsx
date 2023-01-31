@@ -20,7 +20,7 @@ const Error = () => {
 
   useEffect(() => {
     startCountdown()
-  }, [sec])
+  }, [sec, startCountdown])
 
   // useEffect(() => {
   // })
